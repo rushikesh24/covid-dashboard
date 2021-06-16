@@ -1,0 +1,59 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>PassList</servlet-name>
+  	<display-name>PassList</display-name>
+  	<description></description>
+  	<servlet-class>coviddashboard.services.PassList</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>UpdatePassList</servlet-name>
+  	<display-name>UpdatePassList</display-name>
+  	<description></description>
+  	<servlet-class>coviddashboard.services.UpdatePassList</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ApproveUser</servlet-name>
+  	<display-name>ApproveUser</display-name>
+  	<description></description>
+  	<servlet-class>coviddashboard.services.ApproveUser</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LoggedIn</servlet-name>
+  	<display-name>LoggedIn</display-name>
+  	<description></description>
+  	<servlet-class>coviddashboard.services.LoggedIn</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LogOut</servlet-name>
+  	<display-name>LogOut</display-name>
+  	<description></description>
+  	<servlet-class>coviddashboard.controller.LogOut</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>PassList</servlet-name>
+  	<url-pattern>/PassList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UpdatePassList</servlet-name>
+  	<url-pattern>/UpdatePassList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ApproveUser</servlet-name>
+  	<url-pattern>/ApproveUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LoggedIn</servlet-name>
+  	<url-pattern>/LoggedIn</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LogOut</servlet-name>
+  	<url-pattern>/LogOut</url-pattern>
+  </servlet-mapping>
+ 
+ 
+</web-app>
