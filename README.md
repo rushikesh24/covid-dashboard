@@ -14,7 +14,7 @@
 
 ![Output](Output.gif)
 
-### 🏠 [Homepage](https://github.com/HoneyPatre/yourcart#readme)
+### 🏠 [Homepage](https://github.com/rushikesh24/covid-dashboard#readme)
 
 ## Prerequisites
 
